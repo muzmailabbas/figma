@@ -1,0 +1,292 @@
+
+#header{
+    margin: 30px 10px;
+    img{
+        padding-top: 22px;
+    }
+    ul{
+        display: block;
+        li{
+            display: inline-block;
+            padding: 0px 10px;
+            padding-top: 17px;
+
+            a{
+            text-decoration: none;
+                color: rgb(88, 91, 127);
+                &:hover{
+                    color: rgb(192, 192, 192);
+                }
+                
+            }
+            a.active {
+                font-weight: bold;
+                color: rgb(192, 192, 192);
+        }
+    }
+}
+
+.btn{
+    background-color: rgb(44, 40, 85);
+    box-shadow: 0px -2px 5px #B916B0;
+    border: 2px  solid #B916B0;
+    color: rgb(192, 192, 192);;
+}
+
+
+}
+
+#home{
+    span{
+        font-family: 'Courier New', Courier, monospace;
+        color: rgb(37, 224, 238);
+    }
+    .btn{
+        background-color: rgb(255, 17, 228);
+        color: rgb(192, 192, 192);
+        box-shadow: 5px 2px 30px rgb(255, 17, 228);
+    }
+        svg{
+            padding-bottom: 60px;
+        }
+        .col-lg-6 {
+            position: relative;
+        }
+        
+        .image-container {
+            position: relative;
+        }
+        
+        .centered-image {
+            position: absolute;
+            top: 35%;
+            left: 49%;
+            width: 80%;
+            border-radius: 220px;
+            transform: translate(-50%, -50%);
+         
+        }
+        .centered-image2{
+            position: absolute;
+            top: 65%;
+            left: 30%;
+            width: 28%;
+            border-radius: 220px;
+            transform: translate(-50%, -50%);
+         
+        }
+        
+}
+
+
+#project{
+    text-align: left;
+    margin: 20px 0px;
+    div{
+       
+        span{
+           
+            font-family: 'Courier New', Courier, monospace;
+            font-size: 30px;
+            color: rgb(37, 224, 238);
+        }
+        a{
+            text-decoration: none;
+            color: rgb(192, 192, 192);
+            margin: 0px 25px;
+        }
+    }
+    .ja {
+        text-align: center;
+        display: inline-block;
+        position: relative;
+        text-decoration: none;
+        color: rgb(192, 192, 192);
+    }
+    
+    .background-image {
+        position: absolute;
+        bottom: 0;
+        top: 0;
+        left: 0;
+        right: 0px;
+        object-fit: cover;
+        opacity: 0;
+    }
+    
+    .ja .background-image {
+        opacity:0.3;
+    }
+    .box {
+            margin: 30px 0px;
+            width: Fill (405.33px);
+            background-color: hsba(0, 0%, 100%, 0.03);
+            background-color: hsl(215, 40%, 18%);
+            height: Hug (579.21px);
+            padding: 32px 0px;
+            border-radius: 16px;
+            gap: 20px;
+ 
+    }
+    
+    .info {
+        margin-left: 50px;
+    }
+    
+    .info img {
+        width: 13px;
+        margin: 1px;
+    }
+    
+    .btn {
+        background-color: rgb(255, 17, 228);
+        color: rgb(192, 192, 192);
+        padding: 10px 55px;
+        margin: 0px;
+    }
+    .centered-image {
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+    .box {
+        position: relative;
+        padding: 20px;
+    }
+    
+    .centered-image {
+        position: absolute;
+        top: 70px;
+        right: 105px;
+    }
+    
+    .info {
+        margin-left: 50px;
+    }
+    
+    .info img {
+        width: 13px;
+        margin: 1px;
+    }
+    
+    .btn {
+        background-color: rgb(255, 17, 228);
+        color: rgb(192, 192, 192);
+        padding: 10px 55px;
+        margin: 0px;
+    }
+    .btn3 {
+       border: 3px solid rgb(255, 17, 228);
+       background-color: rgb(38, 29, 89);
+        color: rgb(192, 192, 192);
+        padding: 10px 55px;
+        margin-left: 40% ;
+    }
+}
+
+#file{
+    .btn-hover.color-8 {
+        background-image: linear-gradient(to right, rgb(16, 112, 136), #303131, #3a3b3b, #141414);
+        box-shadow: 0 4px 15px 0 rgba(45, 54, 65, 0.75);
+    }* {
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+    }
+    
+    .buttons {
+        margin: 10%;
+        text-align: center;
+    }
+    
+    .btn-hover {
+        width: 200px;
+        font-size: 16px;
+        font-weight: 600;
+        color: #fff;
+        cursor: pointer;
+        margin: 20px;
+        height: 55px;
+        text-align:center;
+        border: none;
+        background-size: 300% 100%;
+    
+        border-radius: 50px;
+        moz-transition: all .4s ease-in-out;
+        -o-transition: all .4s ease-in-out;
+        -webkit-transition: all .4s ease-in-out;
+        transition: all .4s ease-in-out;
+    }
+    
+    .btn-hover:hover {
+        background-position: 100% 0;
+        moz-transition: all .4s ease-in-out;
+        -o-transition: all .4s ease-in-out;
+        -webkit-transition: all .4s ease-in-out;
+        transition: all .4s ease-in-out;
+    }
+    
+    .btn-hover:focus {
+        outline: none;
+    }
+    span{
+           
+        font-family: 'Courier New', Courier, monospace;
+        color: rgb(37, 224, 238);
+    }
+    .box{
+        background-color: rgb(16, 16, 54);
+        padding: 20px 25px;
+        border-radius: 20px;
+        margin: 20px 5px;
+        img{
+            background-color: rgb(38, 29, 89);
+            padding: 15px;
+            margin-left: 90%;
+            border-radius: 0px 10px 0px 25px;
+
+        }
+    }
+    .centered-image {
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+    .box {
+        position: relative;
+        padding: 20px;
+    }
+    
+    .centered-image {
+        position: absolute;
+        top: 0px;
+        right: 0px;
+    }
+
+    
+}
+
+
+#catagory{
+    span{
+           
+        font-family: 'Courier New', Courier, monospace;
+        color: rgb(37, 224, 238);
+    }
+
+    .btn3 {
+        border: 3px solid rgb(255, 17, 228);
+        background-color: rgb(38, 29, 89);
+         color: rgb(192, 192, 192);
+         padding: 10px 55px;
+         margin-left: 40% ;
+     }
+
+}
+
+#clainet{
+    margin: 30px 10px;
+    img{
+        width: 50%;
+    }
+}
